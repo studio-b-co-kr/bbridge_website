@@ -18,6 +18,15 @@ section {
   padding: 6rem 4rem;
 }
 
+footer {
+  border-top: solid 1px #696969;
+  padding: 4rem 0;
+}
+
+footer .content {
+  display: flex;
+}
+
 h1, h2, h3 {
   font-weight: 300;
   letter-spacing: 0.1rem;
@@ -26,7 +35,6 @@ h1, h2, h3 {
 h1 {
   font-size: 3rem;
   line-height: 4rem;
-  width: 60%;
 }
 
 h2 {
@@ -42,8 +50,17 @@ p {
   line-height: 2.25rem;
   color: #F9F9F9;
   font-weight: 300;
-  width: 60%;
 }
+
+a {
+  color: #F9F9F9;
+  text-decoration: none;
+}
+
+.content {
+  padding: 0 6rem;
+}
+
 
 .logo {
   height: 2.5rem;
@@ -85,7 +102,6 @@ p {
 }
 
 .technology p {
-  width: 60%;
   margin: auto;
   color: #AAAAAA;
   font-weight: 400;
@@ -104,11 +120,16 @@ p {
 
 .team {
   background-image: url('../img/background_team.png');
+  background-size: cover;
 }
 
 .team-overview {
   float: right;
-  width: 40%;
+  width: 45%;
+}
+
+.team-members {
+  width: 55%;
 }
 
 .team-member {
@@ -117,6 +138,7 @@ p {
   font-size: 1.25rem;
   line-height: 92px;
   letter-spacing: 0.2rem;
+  white-space: nowrap;
 }
 
 .team-member img {
@@ -127,11 +149,84 @@ p {
   margin-right: 2rem;
 }
 
+.jobs .content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.jobs h3 {
+  width: 55%;
+  margin-top: 0;
+  line-height: 2rem;
+}
+
+.job-openings {
+  width: 45%;
+}
+
+.job-opening:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.job-title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.job-description {
+  color: #AAA;
+  line-height: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+a.job-apply-link {
+  font-size: 1.25rem;
+}
+
+a.job-apply-link img {
+  vertical-align: baseline;
+  height: 1rem;
+  padding-right: 0.5rem;
+}
+
+.contact {
+  padding-left: 20%;
+  width: 50%;
+}
+
+.contact .map {
+  width: 120px;
+}
+
+.contact a {
+  display: block;
+}
+
+.contact-icon {
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+
 @media only screen and (min-width: 1025px) {
+  h1, p {
+    width: 60%;
+  }
+
   .content {
     max-width: 1024px;
     margin: auto;
-    padding: 4rem 0;
   }
 }
+
+@media only screen and (max-width: 670px) {
+  .team-overview {
+    float: none;
+    width: auto;
+  }
+}
+
+
 
