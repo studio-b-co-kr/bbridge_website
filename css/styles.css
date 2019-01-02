@@ -1,3 +1,23 @@
+html {
+  background-color: #111;
+  color: #F9F9F9;
+}
+
 body {
   font-family: 'Avenir', arial, sans-serif;
 }
+
+.product-details {
+  background-color: #182638;
+  background-image: url('../img/background_product_details.png');
+}
+
+.technology {
+  background-color: #FFF;
+  color: #111;
+}
+
+.team {
+  background-image: url('../img/background_team.png');
+}
+
