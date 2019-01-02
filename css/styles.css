@@ -283,6 +283,11 @@ a.job-apply-link img {
     vertical-align: middle;
   }
 
+  .team-overview {
+    float: none;
+    width: auto;
+  }
+
   footer {
     padding: 2rem;
   }
@@ -316,11 +321,6 @@ a.job-apply-link img {
 
   .job-openings {
     width: 100%;
-  }
-
-  .team-overview {
-    float: none;
-    width: auto;
   }
 
 }
