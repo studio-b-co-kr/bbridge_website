@@ -94,6 +94,15 @@ a.styled:focus::after {
   height: 2.5rem;
 }
 
+li {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.supporting-text {
+  color: #696969;
+}
 
 .product-details {
   background-color: #182638;
@@ -167,11 +176,13 @@ a.styled:focus::after {
   line-height: 92px;
   letter-spacing: 0.2rem;
   white-space: nowrap;
+
 }
 
 .team-member:hover img {
   -webkit-filter: none; /* Safari 6.0 - 9.0 */
   filter: none;
+  transition: filter 0.7s;
 }
 
 .team-member img {
@@ -180,6 +191,7 @@ a.styled:focus::after {
   opacity: 0.8;
   vertical-align: middle;
   margin-right: 2rem;
+  transition: filter 0.7s;
 }
 
 .jobs .content {
@@ -272,7 +284,7 @@ a.job-apply-link img {
   }
 
   footer {
-    padding: 2rem 0;
+    padding: 2rem;
   }
 
   .contact {
@@ -285,6 +297,11 @@ a.job-apply-link img {
 }
 
 @media only screen and (max-width: 670px) {
+
+  li {
+    font-size: 1rem;
+  }
+
   .content {
     padding: 2rem 0;
   }
@@ -294,7 +311,7 @@ a.job-apply-link img {
   }
 
   .jobs h3 {
-    width: 100%;
+    display: none;
   }
 
   .job-openings {
