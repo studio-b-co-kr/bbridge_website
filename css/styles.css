@@ -261,9 +261,12 @@ a.job-apply-link img {
 }
 
 .contact-address {
-  margin-bottom: 2rem;
   padding-left: 4rem;
   position: relative;
+}
+
+.contact-address:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .contact-icon {
