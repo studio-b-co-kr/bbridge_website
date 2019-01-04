@@ -132,19 +132,22 @@ li {
   color: #AAAAAA;
 }
 
-.technology {
+.technology,
+.investors {
   background-color: #FFF;
   color: #111;
   text-align: center;
 }
 
-.technology p {
+.technology p,
+.investors p {
   margin: auto;
   color: #AAAAAA;
   font-weight: 400;
 }
 
-.tech-stack {
+.tech-stack, 
+.investor-list {
   margin: 2rem auto;
 }
 
@@ -152,6 +155,13 @@ li {
   width: 8rem;
   max-height: 4rem;
   padding: 2rem;
+  vertical-align: middle;
+}
+
+.investor-list img {
+  width: 16rem;
+  max-height: 8rem;
+  padding: 4rem;
   vertical-align: middle;
 }
 
@@ -279,7 +289,14 @@ a.job-apply-link img {
   .tech-stack img {
     width: 4rem;
     max-height: 2rem;
-    padding: 1rem;
+    padding: 2rem;
+    vertical-align: middle;
+  }
+
+  .investor-list img {
+    width: 8rem;
+    max-height: 4rem;
+    padding: 2rem;
     vertical-align: middle;
   }
 
