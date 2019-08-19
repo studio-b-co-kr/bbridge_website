@@ -353,10 +353,15 @@ a.job-apply-link img {
 
   .contact-address {
     padding-left: 2rem;
+    line-height: 1.30;
   }
 
   .team-member {
     font-size: 0.8rem;
+  }
+
+  .contact-icon {
+    width: 1rem;
   }
 }
 
