@@ -186,7 +186,6 @@ li {
   line-height: 92px;
   letter-spacing: 0.2rem;
   white-space: nowrap;
-
 }
 
 .team-member:hover img {
@@ -321,7 +320,7 @@ a.job-apply-link img {
   }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 650px) {
 
   li {
     font-size: 1rem;
@@ -345,15 +344,19 @@ a.job-apply-link img {
 
   .contact {
     padding-left: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .contact .map {
-    margin-right: 2.5rem;
+    margin-right: 1.5rem;
   }
 
   .contact-address {
-    padding-left: 3rem;
+    padding-left: 2rem;
+  }
+
+  .team-member {
+    font-size: 0.8rem;
   }
 }
 
