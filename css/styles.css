@@ -343,6 +343,18 @@ a.job-apply-link img {
     width: 100%;
   }
 
+  .contact {
+    padding-left: 0;
+    font-size: 1rem;
+  }
+
+  .contact .map {
+    margin-right: 2.5rem;
+  }
+
+  .contact-address {
+    padding-left: 3rem;
+  }
 }
 
 
